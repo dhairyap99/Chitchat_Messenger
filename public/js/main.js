@@ -29,7 +29,7 @@ socket.on('message', message => {
 });
 
 // Message submit
-chatForm.addEventListener('submit', e => {
+chatForm.addEventListener('submit', (e) => {
   e.preventDefault();
 
   // Get message text
